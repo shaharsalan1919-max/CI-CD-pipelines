@@ -52,12 +52,12 @@ git push origin main
 ```
 
 ### Step 2: Wait for GitHub Actions
-- Go to: https://github.com/shershahx/ai-code-reviewer/actions
+- Go to: https://github.com/shaharsalan1919-max/CI-CD-pipelines/actions
 - Watch the pipeline build your Docker image
 - Wait for the green checkmark ✓
 
 ### Step 3: Make Package Public
-1. Go to: https://github.com/shershahx?tab=packages
+1. Go to: https://github.com/shaharsalan1919-max/CI-CD-pipelines/packages
 2. Click on `ai-code-reviewer` package
 3. Go to "Package settings"
 4. Change visibility to "Public"

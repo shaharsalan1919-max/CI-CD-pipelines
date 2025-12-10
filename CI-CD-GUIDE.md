@@ -165,9 +165,9 @@ ghcr.io/<github-username>/<repository-name>:<tag>
 
 Example:
 ```
-ghcr.io/shershahx/ai-code-reviewer:latest
-ghcr.io/shershahx/ai-code-reviewer:v1.0.0
-ghcr.io/shershahx/ai-code-reviewer:main
+ghcr.io/shaharsalan1919-max/ci-cd-pipelines:latest
+ghcr.io/shaharsalan1919-max/ci-cd-pipelines:v1.0.0
+ghcr.io/shaharsalan1919-max/ci-cd-pipelines:main
 ```
 
 ### Pulling Images from GHCR
@@ -361,13 +361,14 @@ cache: 'npm'
 
 ### Your Submission URL
 
-Replace `<your-github-username>` with your actual GitHub username:
+Your GHCR image URL:
 
 ```
-ghcr.io/<your-github-username>/ai-code-reviewer:latest
+ghcr.io/shaharsalan1919-max/ci-cd-pipelines:latest
 ```
 
-Example for user "shershahx":
+Additional tags available:
 ```
-ghcr.io/shershahx/ai-code-reviewer:latest
+ghcr.io/shaharsalan1919-max/ci-cd-pipelines:v1.0.0
+ghcr.io/shaharsalan1919-max/ci-cd-pipelines:main
 ```
