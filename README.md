@@ -23,13 +23,13 @@ An AI-powered code review tool that provides instant feedback on code quality, b
 ### Pull from GitHub Container Registry
 
 ```bash
-docker pull ghcr.io/shershahx/ai-code-reviewer:latest
+docker pull ghcr.io/shaharsalan1919-max/ci-cd-pipelines:latest
 ```
 
 ### Run the Container
 
 ```bash
-docker run -d -p 3001:3001 -e GEMINI_API_KEY=your_api_key_here ghcr.io/shershahx/ai-code-reviewer:latest
+docker run -d -p 3001:3001 -e GEMINI_API_KEY=your_api_key_here ghcr.io/shaharsalan1919-max/ci-cd-pipelines:latest
 ```
 
 Then open http://localhost:3001 in your browser.
@@ -94,9 +94,9 @@ This project uses GitHub Actions for continuous integration and deployment:
 Replace `<your-github-username>` with your GitHub username:
 
 ```
-ghcr.io/<your-github-username>/ai-code-reviewer:latest
-ghcr.io/<your-github-username>/ai-code-reviewer:v1.0.0
-ghcr.io/<your-github-username>/ai-code-reviewer:main
+ghcr.io/shaharsalan1919-max/ci-cd-pipelines:latest
+ghcr.io/shaharsalan1919-max/ci-cd-pipelines:v1.0.0
+ghcr.io/shaharsalan1919-max/ci-cd-pipelines:main
 ```
 
 ### Workflow Details
