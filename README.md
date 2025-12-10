@@ -81,6 +81,7 @@ docker run -d -p 3001:3001 -e GEMINI_API_KEY=your_api_key_here ai-code-reviewer
 
 This project uses GitHub Actions for continuous integration and deployment:
 
+<<<<<<< HEAD
 - **Automated testing**: Runs on every push and pull request
 - **Automatic builds**: Triggered on push to main/master/develop branches
 - **Docker image creation**: Builds optimized Docker images
@@ -109,6 +110,19 @@ See [CI-CD-GUIDE.md](./CI-CD-GUIDE.md) for:
 - Performance optimization tips
 - Security best practices
 
+=======
+- **Automatic builds**: Triggered on push to main/master branch
+- **Docker image creation**: Builds optimized Docker images
+- **GHCR publishing**: Automatically publishes to GitHub Container Registry
+- **Multi-tagging**: Images tagged with latest, branch name, and commit SHA
+
+### GitHub Container Registry URL
+
+```
+ghcr.io/shershahx/ai-code-reviewer:latest
+```
+
+>>>>>>> c9fdc0a4bde5f8810c25f88fd287897570f05239
 ## API Endpoint
 
 ### POST /review
